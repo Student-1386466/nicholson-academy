@@ -1,0 +1,308 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+body{
+width: 100%;
+height: 100%;
+}
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------ FIRST PAGE (INDEX) -------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* -------- HEADER CSS STARTS HERE ----- */
+.header{
+  background-color: #ffffff;
+  position: fixed;
+  z-index: 1;
+  width:100%;
+    height: 10vh;
+}
+.logo{
+float: left;
+text-decoration: none;
+background-color: #ffffff;
+}
+.menubar{
+  background-color: #ffff;
+  text-align: center;
+  justify-content: space-evenly;
+
+  z-index: 999;
+}
+.menubar ul{
+  display: inline-flex;
+  list-style: none;
+  color: #b313f4;
+}
+.menubar ul li{
+  width: 50%;
+  font-size: 120%;
+  margin: 5px;
+  padding:10px;
+}
+.menubar ul li a{
+  text-decoration: none;
+  color: #c212df;
+}
+.menubar ul li:hover{
+  background: #c8a4de ;
+}
+/* -------- HEADER CSS ENDS HERE ----- */
+/*-----------------------------------------------------------------*/
+/* -------- SLIDER CSS STARTS HERE -----
+
+.carousel {
+    position: relative;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+    margin-top: 26px;
+    background:#000;
+
+}
+
+.carousel-inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+
+}
+
+.carousel-open:checked + .carousel-item {
+    position: static;
+    opacity: 100;
+}
+
+.carousel-item {
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: opacity 0.6s ease-out;
+    transition: opacity 0.6s ease-out;
+}
+
+.carousel-item img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+.carousel-control {
+    background: rgba(0, 0, 0, 0.28);
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    font-size: 40px;
+    height: 40px;
+    line-height: 35px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    cursor: pointer;
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    text-align: center;
+    width: 40px;
+    z-index: 10;
+}
+
+.carousel-control.prev {
+    left: 4%;
+}
+
+.carousel-control.next {
+    right: 4%;
+}
+
+.carousel-control:hover {
+    background: rgba(0, 0, 0, 0.8);
+    color: #aaaaaa;
+}
+
+#carousel-1:checked ~ .control-1,
+#carousel-2:checked ~ .control-2,
+#carousel-3:checked ~ .control-3 {
+    display: block;
+}
+
+.carousel-indicators {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 100;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.carousel-bullet {
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 35px;
+}
+
+.carousel-bullet:hover {
+    color: #aaaaaa;
+}
+
+#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
+    color: #428bca;
+}
+
+#title {
+    width: 100%;
+    position: absolute;
+    padding: 0px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 27px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Open Sans', sans-serif;
+    z-index: 9999;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
+}
+
+ -------- SLIDER CSS ENDS HERE ----- */
+/*------------------------------------------------------------------------------*/
+/* -------- SOCIAL MEDIA CSS STARTS HERE ----- */
+.social-media{
+  position: absolute;
+  top: 15%;
+  display: block;
+  left: 10px;
+  right: 0px;
+
+}
+
+.menu ul{
+  list-style-type: none;
+}
+.menu li{
+  height: auto;
+  position: relative;
+  top:300px;
+  left: 10px;
+}
+/* BOX 1 CSS STARTS HERE */
+.box1{
+  background-color: #2e2c2d;
+  color: #ffffff;
+  width: 100%;
+  height: 40vh;
+
+
+}
+.box1-content{
+
+  float: left;
+  color:#b80ed4;
+  top:10%;
+  margin-left: 4%;
+}
+.box1pic{
+  float: right;
+  padding: 5px;
+
+}
+/* BOX 1 CSS ENDS HERE */
+/*---------------------------------------------------------*/
+/* BOX 2 CSS STARTS HERE */
+.box2{
+  background-color: black;
+  color: #ffffff;
+  width: 100%;
+  height: 40vh;
+
+}
+.box2-content{
+  position: relative;
+  top:5%;
+  color:#b80ed4;
+  float: right;
+  margin-right: 20px;
+
+}
+.box2pic{
+  position: relative;
+  float: left;
+  padding: 15px;
+  margin-left: 20px;
+}
+/* BOX 2 CSS ENDS HERE */
+/*----------------------------------------------------------*/
+/* SIDE 1 CSS STARTS HERE */
+.side1{
+  float: left;
+  color: #ffffff;
+  height: 40vh;
+  text-align: center;
+  width: 50%;
+  background-color: #616362;
+}
+.side1 ul{
+list-style:armenian;
+text-decoration-style: dotted;
+
+}
+.side1 ul li{
+color: #a00fcb;
+
+}
+/* SIDE 1 CSS ENDS HERE */
+/*--------------------------------------------------------------*/
+/* SIDE 2 CSS STARTS HERE */
+.side2{
+  float:right;
+  height: 40vh;
+  text-align: center;
+  width: 50%;
+  color: #ffffff;
+ background-color: #121614;
+}
+.side2 ul{
+list-style:armenian;
+text-decoration-style: none;
+
+}
+.side2 ul li{
+color: #ac0354;
+
+}
+/* SIDE 2 CSS ENDS HERE */
+/*----------------------------------------------------------*/
+/* FOOTER STARTS HERE*/
+.footer{
+width: 100%;
+height:10vh;
+background-color: #15533c;
+color: #ffffff;
+text-align: center;
+}
+/* FOOTER ENDS HERE*/
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+
+    width: 100%;
+    height: 100vh;
+  }
+@media query  mobile   {
+
+}
+
+@media query for tab   {
+
+}
